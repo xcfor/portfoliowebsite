@@ -1,4 +1,4 @@
- * {
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,11 +6,9 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+}
 
-
- }
-
- :root {
+:root {
     --primary-hue: 270;
     --black-lightness: 15%;
     --dark-lightness: 44%;
@@ -22,16 +20,16 @@
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
-    /* container vars */
+    /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
     --container-width-md: 90%;
 
-    /* border radius vars */
+    /* BORDER RADIUS VARIABLES */
     --border-radius-1: 1.2rem;
     --border-radius-2: 0.8rem;
     --border-radius-3: 0.5rem;
 
-    /* transition vars */
+    /* GENERAL TRANSITION VARIABLE */
     --transition: all 500ms ease;
 }
 
@@ -45,14 +43,67 @@ body {
     font-size: 0.9rem;
 }
 
-/* general container class */
+
+
+
+
+
+
+
+
+
+
+/* THEME change using react */
+main.color-1 {
+    --primary-hue: 270;
+}
+main.color-2 {
+    --primary-hue: 110;
+}
+main.color-3 {
+    --primary-hue: 240;
+}
+main.color-4 {
+    --primary-hue: 325;
+}
+main.color-5 {
+    --primary-hue: 0;
+}
+main.color-6 {
+    --primary-hue: 55;
+}
+
+main.bg-2 {
+    --black-lightness: 96%;
+    --dark-lightness: 60%;
+    --light-lightness: 12%;
+    --white-lightness: 6%;
+    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+}
+
+main {
+    color: var(--color-dark);
+    --color-primary: hsl(var(--primary-hue), 89%, 41%);
+}
+
+
+
+
+
+
+
+
+/* GENERAL CONTAINER CLASS */
 .container {
     width: var(--container-width-lg);
     margin-inline: auto;
     max-width: 1920px;
 }
 
-/* general section styles */
+/* GENERAL SECTION STYLES */
 section {
     padding: 10rem 0;
     background: var(--color-light);
@@ -74,13 +125,13 @@ section > p {
 }
 
 
-/* general section styles */
+/* GENERAL SECTION STYLES */
 a {
-    color: var(--color-white);
+    /* color: var(--color-white); */
     transition: var(--transition);
 }
 
-/* general heading styles */
+/* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     color: var(--color-black);
@@ -110,14 +161,14 @@ h6 {
     font-size: 0.8rem;
 }
 
-/* general image styles */
+/* GENERAL IMAGES STYLES */
 img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-/* general button styles */
+/* GENERAL BUTTON STYLES */
 .btn {
     display: inline-block;
     width: fit-content;
@@ -149,7 +200,7 @@ img {
 
 .btn.primary {
     background: var(--color-primary);
-    /* text colour is always white that's why I didn't use a variable colour */
+    /* text color always white that's why i didn't use a variable color */
     color: white;
 }
 
@@ -166,7 +217,7 @@ img {
 
 
 
-/* media queries (tablets) */
+/* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 1rem;
@@ -194,7 +245,7 @@ img {
 
 
 
-/* media queries (phones) */
+/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 2.4rem;
