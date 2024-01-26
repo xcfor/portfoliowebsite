@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import HeaderImage from '../../assets/header.jpg'
 import data from './data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -13,16 +12,14 @@ const Header = () => {
   return (
     <header id="header">
       <div className="container header__container">
-        <div className="header__profile" data-aos="fade-in">
-          <img src={HeaderImage} alt="Header Portait" />
-        </div>
-        <h3  data-aos="fade-up">Hajia Bintu</h3>
+        <h2  data-aos="fade-up" className='nameTitle'>Chris Forbes</h2>
+        <h3 className='jobTitle'>Software Developer</h3>
         <p  data-aos="fade-up">
-        You are a click away from building your dream website or web app. Send me the details of your project for a modern, mobile responsive, highly performant website today!
+        I'm a software developer just finishing a masters degree in software development. Looking forward to working with you building awesome things.
         </p>
         <div className="header__cta"  data-aos="fade-up">
           <a href="#contact" className='btn primary'>Let's Talk</a>
-          <a href="#portfolio" className='btn light'>My Work</a>
+          <a href="#portfolio" className='btn light'>My Portfolio</a>
         </div>
         <div className="header__socials">
           {

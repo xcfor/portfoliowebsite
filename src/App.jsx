@@ -52,8 +52,8 @@ const App = () => {
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <Navbar/>
         <Header/>
-        <About/>
-        <Services/>
+        {/* <About/> */}
+        {/* <Services/> */}
         <Portfolio/>
         {/* <Testimonials/> */}
         {/* <FAQs/> */}

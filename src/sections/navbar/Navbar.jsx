@@ -1,6 +1,6 @@
-import Logo from '../../assets/logo.jpg'
 import data from './data'
-import {IoIosColorPalette} from 'react-icons/io'
+import {HiOutlineHome} from 'react-icons/hi'
+import {IoIosColorPalette, IoIosHome} from 'react-icons/io'
 import { useModalContext } from '../../context/modal-context'
 import './navbar.css'
 
@@ -10,8 +10,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav__container">
-        <a href="index.html" className='nav__logo'>
-          <img src={Logo} alt="Logo" />
+        <a href="index.html" className='nav__home'>
+        <HiOutlineHome />
         </a>
         <ul className='nav__menu'>
           {

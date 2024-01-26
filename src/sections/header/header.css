@@ -1,6 +1,6 @@
 header {
     margin-top: 5rem;
-    height: calc(100vh - 5rem);
+    height: calc(60vh - 5rem);
     display: grid;
     place-items: center;
     background: var(--color-white);
@@ -59,6 +59,18 @@ header {
     transform: translateX(-0.5rem);
 }
 
+.nameTitle {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.jobTitle {
+    font-size: 2rem;
+}
+
+p {
+
+}
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {

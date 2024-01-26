@@ -4,9 +4,9 @@ import './contact.css'
 const Contact = () => {
   return (
     <section id="contact">
-      <h2>Get In Touch</h2>
+      <h2>Contact Me</h2>
       <p>
-        Shoot me a message via any of the links below!
+        Shoot me an email or connect with me on LinkedIn - CV available on request.
       </p>
       <div className="container contact__container" data-aos="fade-up">
         {

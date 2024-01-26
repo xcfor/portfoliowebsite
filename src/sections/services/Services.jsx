@@ -5,8 +5,8 @@ import './services.css'
 const Services = () => {
   return (
     <section id="services">
-      <h2>My Services</h2>
-      <p>I give you the best in all the services below</p>
+      <h2>My Work Experience and Education</h2>
+      <p>And always pushing myself to acquire new skills ... </p>
       <div className="container services__container" data-aos="fade-up">
         {
           data.map(item => (

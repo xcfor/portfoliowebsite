@@ -1,95 +1,65 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import react_portfolio_website from '../../assets/react_portfolio_website.jpg'
+import CSharp_portfolio_logo from '../../assets/CSharp_portfolio.jpg'
+import Pyhton_portfolio_logo from '../../assets/Python_portfolio.jpg'
+import SQL_portfolio_logo from '../../assets/MS_SQL.jpg'
+import Uni_logo from '../../assets/Uni.jpg'
+import Capstone_project from '../../assets/Capstone_project.jpg'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
-        image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'React',
+        image: react_portfolio_website,
+        title: "Portfolio Website",
+        desc: "I created my portfolio website using React from a Udemy tutorial I intitially followed then applied some of my own touches. The site is deployed to Githib pages and I'm using my own custom domain.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/portfoliowebsite'
     },
     {
         id: 2,
-        category: 'frontend',
-        image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'C#',
+        image: CSharp_portfolio_logo,
+        title: "C# Code",
+        desc: "Description goes here.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/CSharp'
     },
     {
         id: 3,
-        category: 'frontend',
-        image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'Python',
+        image: Pyhton_portfolio_logo,
+        title: "Python Code",
+        desc: "Description goes here.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/Python'
     },
     {
         id: 4,
-        category: 'uiux',
-        image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'SQL',
+        image: SQL_portfolio_logo,
+        title: "SQL Code",
+        desc: "Description goes here.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/SQL'
     },
     {
         id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'University Assignments',
+        image: Uni_logo,
+        title: "University Assignments",
+        desc: "I have made this repo of some of my coding university assignments private by default because of academic integrity - I don't want students cheating with my code.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/SQL'
     },
     {
         id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        category: 'Masters Degree Capstone Project',
+        image: Capstone_project,
+        title: "Masters Capstone",
+        desc: "Description goes here.",
+        demo: 'https://portfolio.neopulse.com',
+        github: 'https://github.com/xcfor/Masters_Capstone'
     },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    }
 ]
 
 
