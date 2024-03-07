@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.da28d4f5.css",
-    "main.js": "/static/js/main.9d6c5db7.js",
+    "main.css": "/static/css/main.de37fe8a.css",
+    "main.js": "/static/js/main.fe1a180d.js",
     "static/media/Capstone_project.jpg": "/static/media/Capstone_project.1d865bd640b34c9d253a.jpg",
     "static/media/Uni.jpg": "/static/media/Uni.f6c4356a1b3e24b3f175.jpg",
     "static/media/Python_portfolio.jpg": "/static/media/Python_portfolio.17cc1d815c6f5a8d465d.jpg",
@@ -9,11 +9,11 @@
     "static/media/react_portfolio_website.jpg": "/static/media/react_portfolio_website.1e08155f23395399aff4.jpg",
     "static/media/MS_SQL.jpg": "/static/media/MS_SQL.16fb896cfee82e77e03b.jpg",
     "index.html": "/index.html",
-    "main.da28d4f5.css.map": "/static/css/main.da28d4f5.css.map",
-    "main.9d6c5db7.js.map": "/static/js/main.9d6c5db7.js.map"
+    "main.de37fe8a.css.map": "/static/css/main.de37fe8a.css.map",
+    "main.fe1a180d.js.map": "/static/js/main.fe1a180d.js.map"
   },
   "entrypoints": [
-    "static/css/main.da28d4f5.css",
-    "static/js/main.9d6c5db7.js"
+    "static/css/main.de37fe8a.css",
+    "static/js/main.fe1a180d.js"
   ]
 }
